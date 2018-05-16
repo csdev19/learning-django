@@ -44,15 +44,17 @@
     $ export WORKON_HOME=~/.virtualenvs
     $ source /usr/local/bin/virtualenvwrapper.sh
 ```
+
 - Para crear un virtualenv con virtualenvwrapper usamos este comando
     ```console
     mkvirtualenv --python=direccion donde esta python  <nombre>
     ```
 
 ## Para instalar Django2.0
+
 - Instalar django -> [Documentacion](https://docs.djangoproject.com/en/2.0/)
     ```console
-  	$ sudo pip install Django==<version>  (1.6.2 por ejemplo) 
+  	$ sudo pip install Django==<version>  (1.6.2 por ejemplo)
     ```
 - Iniciar un proyecto en Django
     ```console
