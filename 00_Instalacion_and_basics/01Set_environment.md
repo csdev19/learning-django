@@ -60,8 +60,13 @@
 - Iniciar un proyecto en Django
     ```console
     $ django-admin.py startproject <nombre del proyecto>
+    // esto nos crea una carpeta con los sgtes archivos 
+    |-> __init__.py
+    |-> settings.py
+    |-> urls.py
+    |-> wsgi.py
+    |->  manage.py 
     ```
-    - esto nos crea una carpeta con los sgtes archivos [ __init__.py, settings.py, urls.py, wsgi.py,  manage.py ]
 - Iniciar un servidor en django
     ```console
     $ python manage.py runserver   (al crearse el server estara por defecto en 127.0.0.1:8000)
