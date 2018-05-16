@@ -44,7 +44,7 @@
     //Una vez instalado, debemos editar el archivo ~/.bashrc (o ~/.zshrc si usa zsh) y agregar lo siguiente al final el archivo sin los $:
     $ export WORKON_HOME=~/.virtualenvs
     $ source /usr/local/bin/virtualenvwrapper.sh
-```
+    ```
 
 - Para crear un virtualenv con virtualenvwrapper usamos este comando
     ```console
