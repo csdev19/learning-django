@@ -15,17 +15,18 @@
 - Instalacion:
     ```console
     $ pip install virtualenv
-
     // ejemplo para python3 en especifico
     // porque podria variar por la version actual de python que maneje el SO
     $ pip3 install virtualenv
     ```
+
 - Crear y activar un ambiente virtual:
     ```console
     $ virtualenv -p python3 <nombre-del-ambiente>
     // de forma general virtualenv [OPCIONES] Env_directory
     $ source <nombre-del-ambiente>/bin/activate //para linux
     ```
+
 - Para desactivar el ambiente virtual:
     ```console
     $ deactivate
@@ -73,7 +74,6 @@
 	      |
 	      |
 	      |-> manage.py
-
 	```
 - Iniciar un servidor en django
     ```console
@@ -81,10 +81,7 @@
 	$ python manage.py runserver <#> (para sea el numero 80 como suele ser )
 	// tambien con
 	$ django-admin runserver --settings==mysite.settings
-	``
-
-
-
+	```
 
 
 
